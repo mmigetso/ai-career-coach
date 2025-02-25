@@ -17,7 +17,7 @@ const Header = async() => {
         <Link href="/">
           <Image src="/logo2.jpeg" 
           alt="Sensai Logo" 
-          width={200} 
+          width={600} 
           height={60} 
           priority
           className='h-12 py-1 w-auto object-contain'
