@@ -15,12 +15,12 @@ const Header = async() => {
     z-50 supports-[backdrop-filter]:bg-background/60'>
        <nav className="container mx-auto px-4 h-16 flex items-center justify-between  ">
         <Link href="/">
-          <Image src="/logo2.jpeg" 
+          <Image src="/logo.png" 
           alt="Sensai Logo" 
-          width={600} 
-          height={100} 
+          width={200} 
+          height={60} 
           priority
-          className='h-12 py-1 w-100 object-contain'
+          className='h-12 py-1 w-auto object-contain'
           />
         </Link>
         <div className='flex items-center space-x-2'>
