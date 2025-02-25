@@ -20,7 +20,7 @@ const Header = async() => {
           width={600} 
           height={60} 
           priority
-          className='h-12 py-1 w-auto object-contain'
+          className='h-12 py-1 w-20 object-contain'
           />
         </Link>
         <div className='flex items-center space-x-2'>
