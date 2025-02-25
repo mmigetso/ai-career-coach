@@ -18,9 +18,9 @@ const Header = async() => {
           <Image src="/logo2.jpeg" 
           alt="Sensai Logo" 
           width={600} 
-          height={60} 
+          height={100} 
           priority
-          className='h-12 py-1 w-20 object-contain'
+          className='h-12 py-1 w-100 object-contain'
           />
         </Link>
         <div className='flex items-center space-x-2'>
