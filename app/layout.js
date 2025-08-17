@@ -8,6 +8,7 @@ import { Toaster } from "sonner";
 
 
 const inter = Inter({subsets: ["latin"]});
+const currentYear = new Date().getFullYear();
 
 export const metadata = {
   title: "AI career Coach",
@@ -36,7 +37,7 @@ export default function RootLayout({ children }) {
       {/*footer*/}
       <footer className="bg-muted/50 py-12">
         <div className="container mx-auto px-4 text-center text-gray-200">
-          <p>Made with ❤️ by Mihjan</p>
+          <p>© {currentYear} CareerPilot. All right Reserved.</p>
         </div>
       </footer>
     </ThemeProvider>

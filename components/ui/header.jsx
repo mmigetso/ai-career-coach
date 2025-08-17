@@ -15,7 +15,7 @@ const Header = async() => {
     z-50 supports-[backdrop-filter]:bg-background/60'>
        <nav className="container mx-auto px-4 h-16 flex items-center justify-between  ">
         <Link href="/">
-          <Image src="/logo.png" 
+          <Image src="/careerpilotLogo4.jpeg" 
           alt="Sensai Logo" 
           width={200} 
           height={60} 
