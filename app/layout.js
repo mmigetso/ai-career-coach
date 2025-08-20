@@ -21,9 +21,11 @@ export default function RootLayout({ children }) {
       baseTheme:dark,
     }}>
     <html lang="en" suppressHydrationWarning>
+
       <body
         className={`${inter.className}`}
       >
+        
         <ThemeProvider
       attribute="class"
       defaultTheme="dark"

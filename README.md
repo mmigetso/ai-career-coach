@@ -1,8 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CareerPilot - Your AI Career Coach
+
+## Description
+
+CareerPilot is an intelligent AI-powered platform designed to empower job seekers by providing comprehensive tools and guidance for navigating the modern job market. From crafting compelling application materials to practicing for interviews, CareerPilot is your personal assistant on your career journey.
+
+## Features
+
+*   **ATS-Friendly Resume Builder:** Create professional and optimized resumes that stand out to Applicant Tracking Systems.
+*   **AI-Powered Cover Letter Generator:** Generate customized and persuasive cover letters tailored to specific job descriptions.
+*   **Interactive AI Interview Practice:** Practice your interview skills with an AI that provides real-time feedback and performance analysis.
+*   **Industry Insights Dashboard:** (If applicable) Get insights into different industries and job roles.
+*   **Career Progress Tracking:** (If applicable) Monitor your progress and saved documents.
+
+## Technologies Used
+
+*   **Frontend:** Next.js, React, Tailwind CSS, Shadcn UI
+*   **Backend:** Next.js, Prisma (for database interaction), Inngest (for background jobs)
+*   **Database:** NeonDB (for PostgreSQL)
+*   **Authentication:** Clerk
+*   **AI/ML:**  GEMINI API 
 
 ## Getting Started
 
 First, run the development server:
+
+### Prerequisites
+
+*   Node.js (v18 or higher recommended)
+*   npm or yarn or pnpm or bun
+*   Git
+*   Database (e.g., PostgreSQL)
+*   Clerk account and API keys
+*   AI API keys (e.g., OpenAI API key)
+
+### Installation
+
+1.  Clone the repository:
 
 ```bash
 npm run dev
